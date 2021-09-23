@@ -31,3 +31,11 @@ body {
   padding-left: 20px;
   cursor: pointer;
 }
+
+/* .nav-link a:hover {
+  color: rgb(77, 13, 13);
+} */
+
+.profile-pic {
+  height: 600px;
+}
