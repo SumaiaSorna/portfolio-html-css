@@ -39,6 +39,9 @@ body {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
   width: 100%;
   padding: 78px 0px;
   background-color: #191919;
@@ -119,6 +122,9 @@ footer p {
 
 @media screen and (max-width: 576px) {
   .nav-container {
+    flex-direction: column;
+  }
+  .flex-container {
     flex-direction: column;
   }
 }
