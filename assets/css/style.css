@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   background-color: black;
   color: white;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .nav-items {
@@ -88,10 +88,8 @@ body {
 }
 
 .project-container-main {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .project-container-main img {
@@ -101,6 +99,16 @@ body {
 
 .project-container {
   padding: 20px;
+}
+
+.project-image {
+  height: 400px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 footer {
@@ -121,17 +129,14 @@ footer p {
 
 .contact-me {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-me a {
   width: 45px;
   height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f9004d;
   border-radius: 50%;
-  margin: 22px 10px;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -143,8 +148,13 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
-  .nav-container {
+  .nav-container,
+  .nav-items {
     flex-direction: column;
+  }
+
+  .nav-items {
+    align-items: center;
   }
   .flex-container {
     flex-direction: column;
