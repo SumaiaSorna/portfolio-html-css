@@ -36,10 +36,43 @@ body {
   color: rgb(77, 13, 13);
 } */
 
-/* .profile-pic {
-  height: 600px;
-} */
-
 .flex-container {
   display: flex;
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;
+}
+
+.profile-pic {
+  height: 480px;
+}
+
+/* .flex-container img {
+  height: auto;
+  width: 420px;
+} */
+.flex-text {
+  width: 550px;
+}
+
+.flex-img {
+  width: 600px;
+}
+
+.flex-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.flex-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.flex-text ul {
+  color: bisque;
 }
