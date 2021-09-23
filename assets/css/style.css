@@ -36,6 +36,10 @@ body {
   color: rgb(77, 13, 13);
 } */
 
-.profile-pic {
+/* .profile-pic {
   height: 600px;
+} */
+
+.flex-container {
+  display: flex;
 }
