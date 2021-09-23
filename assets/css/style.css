@@ -32,9 +32,10 @@ body {
   cursor: pointer;
 }
 
-/* .nav-link a:hover {
+/* not working */
+.nav-items a:hover {
   color: rgb(77, 13, 13);
-} */
+}
 
 .flex-container {
   display: flex;
@@ -75,4 +76,10 @@ body {
 
 .flex-text ul {
   color: bisque;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+  }
 }
