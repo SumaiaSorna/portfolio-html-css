@@ -21,6 +21,10 @@ body {
   padding: 20px;
 }
 
+.nav-container span {
+  color: rgb(243, 16, 53);
+}
+
 .nav-items {
   display: inline-flex;
   padding: 20px;
@@ -37,7 +41,7 @@ body {
 }
 
 .nav-items a:hover {
-  color: rgb(77, 13, 13);
+  color: rgb(243, 16, 53);
 }
 /* about me section styling */
 .flex-container {
@@ -62,6 +66,10 @@ body {
   width: 550px;
 }
 
+.flex-text span {
+  color: rgb(243, 16, 53);
+}
+
 .flex-img {
   width: 300px;
 }
@@ -74,18 +82,18 @@ body {
 }
 
 .flex-text p {
-  color: #fcfc;
+  color: pink;
   letter-spacing: 1px;
   line-height: 28px;
   margin-bottom: 45px;
 }
 
 .flex-text h2 {
-  color: coral;
+  color: rgb(243, 16, 53);
 }
 
 .flex-text ul {
-  color: bisque;
+  color: pink;
 }
 
 /* main project styling */
@@ -101,7 +109,7 @@ body {
 }
 
 .project-description {
-  color: #fcfc;
+  color: pink;
   letter-spacing: 1px;
   line-height: 28px;
   margin-bottom: 45px;
