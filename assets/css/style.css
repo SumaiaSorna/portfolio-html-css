@@ -1,3 +1,7 @@
+:root {
+  --black-color: #000000;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +20,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: black;
+  background-color: var(--black-color);
   color: white;
   padding: 20px;
 }
@@ -95,6 +99,10 @@ body {
 }
 
 /* main project styling */
+
+section a {
+  color: rgb(243, 16, 53);
+}
 
 .project-container-main {
   border: 1px solid black;
@@ -194,5 +202,11 @@ footer h3 span {
   }
   .flex-container {
     flex-direction: column;
+  }
+  .flex-text {
+    width: 100%;
+  }
+  .flex-text h1 {
+    font-size: 35px;
   }
 }
