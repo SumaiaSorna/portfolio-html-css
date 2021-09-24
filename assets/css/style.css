@@ -114,6 +114,15 @@ section a {
   width: 100%;
 }
 
+/*animate the main project  */
+
+.project-image:hover {
+  animation: grow 0.5s ease-out;
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
 .project-description {
   color: pink;
   letter-spacing: 1px;
