@@ -8,7 +8,6 @@ body {
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
-
   font-size: 15px;
 }
 /* nav item styling */
@@ -118,6 +117,24 @@ body {
   height: 100%;
   object-fit: contain;
 }
+/* small projects styling */
+.cards-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: black;
+  justify-content: space-around;
+
+  /* flex properties */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.small-project-card {
+  color: pink;
+  text-align: center;
+}
+
 /* contact me section styling */
 footer {
   position: relative;
