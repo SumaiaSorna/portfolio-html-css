@@ -101,12 +101,20 @@ body {
   width: 100%;
 }
 
-.project-container {
-  padding: 20px;
+.project-description {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  text-align: left;
 }
 
+/* .project-container {
+  padding: 20px;
+} */
+
 .project-image {
-  height: 400px;
+  height: 600px;
 }
 
 .project-image img {
