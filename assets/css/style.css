@@ -114,7 +114,7 @@ section a {
   width: 100%;
 }
 
-/*animate project  */
+/*animate project image */
 
 .project-image:hover {
   animation: grow 0.5s ease-out;
