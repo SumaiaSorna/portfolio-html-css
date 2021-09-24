@@ -83,6 +83,10 @@ body {
   margin-bottom: 45px;
 }
 
+.flex-text h2 {
+  color: coral;
+}
+
 .flex-text ul {
   color: bisque;
 }
