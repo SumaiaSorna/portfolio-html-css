@@ -109,17 +109,13 @@ section a {
   background-color: var(--black-color);
 }
 
-.project-container-main img {
-  height: 100%;
-  width: 100%;
-}
-
 /*animate project image */
 
 .project-image:hover {
   animation: grow 0.5s ease-out;
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(0.95);
+
   z-index: 2;
 }
 
@@ -131,15 +127,26 @@ section a {
   text-align: left;
 }
 
-.project-image {
-  height: 600px;
+#projects h2 {
+  padding-left: 20px;
+}
+
+.project-description p,
+.project-description h3 {
+  padding: 20px;
+  text-align: center;
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; */
+  width: 50%;
+  display: block;
+  max-height: 600px;
 }
+
 /* small projects styling */
 .cards-container {
   padding: 20px;
