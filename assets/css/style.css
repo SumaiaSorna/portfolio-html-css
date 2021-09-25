@@ -25,7 +25,7 @@ body {
   color: white;
   padding: 20px;
 }
-/*            */
+/* css variables */
 .nav-container span {
   color: var(--text-decoration-skip-ink);
 }
