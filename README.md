@@ -1,2 +1,22 @@
-# sumaiasalahuddin-portfolio
-highlighting my skills and strongest work as well as the thought processes behind it
+# portfolio-html-css
+
+## Description
+
+highlighting my skills and strongest work in this portfolio, that shows how my critical thinking skills have evolved over the course of the program.
+
+## Deployed URL
+
+The GitHub pages deployed application here.
+
+## Technologies Used
+
+- HTML
+- CSS
+- CSS Animation
+- Font Awesome
+
+## Screenshots
+
+### Layout Designs
+
+## Final app
