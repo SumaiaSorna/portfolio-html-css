@@ -17,6 +17,8 @@ The GitHub pages deployed application here.
 
 ## Screenshots
 
+![Final look of my Portfolio](./assets/screenshots/portfolio.png)
+
 ### Layout Designs
 
-## Final app
+![Layout design for my Portfolio](./assets/designs/design-layout.png)
