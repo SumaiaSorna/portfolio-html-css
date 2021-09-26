@@ -6,7 +6,7 @@ highlighting my skills and strongest work in this portfolio, that shows how my c
 
 ## Deployed URL
 
-The GitHub pages deployed application here.
+You can view the GitHub pages deployed application [here](https://sumaiasorna.github.io/portfolio-html-css/)
 
 ## Technologies Used
 
