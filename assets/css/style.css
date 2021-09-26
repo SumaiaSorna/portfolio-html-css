@@ -22,7 +22,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: var(--black-color);
-  color: white;
+  color: #ffffff;
   padding: 20px;
 }
 /* css variables */
@@ -42,7 +42,7 @@ body {
 
 .nav-link a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .nav-items a:hover {
@@ -76,14 +76,14 @@ body {
 }
 
 .flex-text h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
   text-transform: capitalize;
   margin: 20px;
 }
 
 .flex-text p {
-  color: pink;
+  color: #ffc0cb;
   letter-spacing: 1px;
   line-height: 28px;
   margin-bottom: 45px;
@@ -96,7 +96,7 @@ body {
 }
 
 .flex-text ul {
-  color: pink;
+  color: #ffc0cb;
 }
 
 /* main project styling */
@@ -120,7 +120,7 @@ section a {
 }
 
 .project-description {
-  color: pink;
+  color: #ffc0cb;
   letter-spacing: 1px;
   line-height: 28px;
   margin-bottom: 45px;
@@ -151,7 +151,7 @@ section a {
 .cards-container {
   padding: 20px;
   margin: 20px;
-  background-color: black;
+  background-color: #000000;
   justify-content: space-around;
 
   /* flex properties */
@@ -161,7 +161,7 @@ section a {
 }
 
 .small-project-card {
-  color: pink;
+  color: #ffc0cb;
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ footer {
 
 footer h3 {
   font-size: 30px;
-  color: white;
+  color: #ffffff;
 }
 footer h3 span {
   color: rgb(243, 16, 53);
@@ -195,7 +195,7 @@ footer h3 span {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 20px;
 }

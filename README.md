@@ -1,12 +1,12 @@
-# portfolio-html-css
+# Portfolio-html-css
 
 ## Description
 
-highlighting my skills and strongest work in this portfolio, that shows how my critical thinking skills have evolved over the course of the program.
+I highlighted my skills through different projects in this portfolio.
 
 ## Deployed URL
 
-You can view the GitHub pages deployed application [here](https://sumaiasorna.github.io/portfolio-html-css/)
+You can view the GitHub page deployed application [here](https://sumaiasorna.github.io/portfolio-html-css/)
 
 ## Technologies Used
 
@@ -15,10 +15,10 @@ You can view the GitHub pages deployed application [here](https://sumaiasorna.gi
 - CSS Animation
 - Font Awesome
 
-## Screenshots
+## Screenshot
 
 ![Final look of my Portfolio](./assets/screenshots/portfolio.png)
 
-### Layout Designs
+### Layout Design
 
 ![Layout design for my Portfolio](./assets/designs/design-layout.png)
