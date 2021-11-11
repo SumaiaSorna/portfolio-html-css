@@ -146,6 +146,18 @@ section a {
   max-height: 600px;
 }
 
+.card-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #ffc0cb;
+}
+
 /* small projects styling */
 .cards-container {
   padding: 20px;
