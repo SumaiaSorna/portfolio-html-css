@@ -12,8 +12,8 @@ body {
   margin: 0px;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2;
-  font-size: 15px;
+  line-height: 1;
+  font-size: 21px;
 }
 /* nav item styling */
 .nav-container {
