@@ -7,7 +7,7 @@
 - [Deployed URL](#Deployed-URL)
 - [Technologies Used](#technologies-used)
 - [Layout Design](#layout-design)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 
 ## Getting Started
 
@@ -34,6 +34,6 @@ Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed
 
 ![Layout design for my Portfolio](./assets/designs/design-layout.png)
 
-## Screenshot
+## Screenshots
 
-![Final look of my updated Portfolio](assets\screenshots\Welcome-to-Sumaia-s-Portfolio.png)
+![Final look of my updated Portfolio](./assets\screenshots\Welcome-to-Sumaia-s-Portfolio.png)
