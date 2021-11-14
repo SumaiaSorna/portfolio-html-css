@@ -7,7 +7,7 @@
 - [Deployed URL](#Deployed-URL)
 - [Technologies Used](#technologies-used)
 - [Layout Design](#layout-design)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 
 ## Getting Started
 
