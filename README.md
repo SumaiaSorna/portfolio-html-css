@@ -27,10 +27,8 @@ Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed
 
 ### Technologies Used
 
-- HTML
-- CSS
-- CSS Animation
-- Font Awesome
+- HTML5
+- CSS3 framework
 
 ### Layout Design
 
