@@ -36,4 +36,4 @@ Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed
 
 ## Screenshots
 
-![Final look of my updated Portfolio](./assets\screenshots\Welcome-to-Sumaia-s-Portfolio.png)
+![Final look of my updated Portfolio](./assets/screenshots/portfolio.png)
