@@ -3,8 +3,8 @@
 ## Table Of Contents
 
 - [Getting Started](#getting-started)
-- [Description](#Description)
-- [Deployed URL](#Deployed-URL)
+- [Description](#description)
+- [Deployed URL](#deployed-url)
 - [Technologies Used](#technologies-used)
 - [Layout Design](#layout-design)
 - [Screenshots](#screenshots)
