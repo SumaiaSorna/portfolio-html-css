@@ -1,5 +1,9 @@
 # Portfolio-HTML-CSS
 
+## Deployed URL
+
+Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed application on Github page.
+
 ## Table Of Contents
 
 - [Getting Started](#getting-started)
@@ -20,10 +24,6 @@ code .
 ## Description
 
 I highlighted my skills through different projects in this portfolio.
-
-## Deployed URL
-
-Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed application on Github page.
 
 ### Technologies Used
 
