@@ -1,24 +1,39 @@
-# Portfolio-html-css
+# Portfolio-HTML-CSS
+
+## Deployed URL
+
+Click [here](https://sumaiasorna.github.io/portfolio-html-css/) to view deployed application on Github page.
+
+## Table Of Contents
+
+- [Getting Started](#getting-started)
+- [Description](#description)
+- [Deployed URL](#deployed-url)
+- [Technologies Used](#technologies-used)
+- [Layout Design](#layout-design)
+- [Screenshots](#screenshots)
+
+## Getting Started
+
+```
+git clone git@github.com:SumaiaSorna/portfolio-html-css.git
+cd sumaiasalahuddin-portfolio
+code .
+```
 
 ## Description
 
 I highlighted my skills through different projects in this portfolio.
 
-## Deployed URL
+### Technologies Used
 
-You can view the GitHub page deployed application [here](https://sumaiasorna.github.io/portfolio-html-css/)
-
-## Technologies Used
-
-- HTML
-- CSS
-- CSS Animation
-- Font Awesome
-
-## Screenshot
-
-![Final look of my Portfolio](./assets/screenshots/portfolio.png)
+- HTML5
+- CSS3 framework
 
 ### Layout Design
 
 ![Layout design for my Portfolio](./assets/designs/design-layout.png)
+
+## Screenshots
+
+![Final look of my updated Portfolio](./assets/screenshots/portfolio.png)

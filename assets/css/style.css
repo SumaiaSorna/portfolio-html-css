@@ -12,8 +12,9 @@ body {
   margin: 0px;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2;
-  font-size: 15px;
+  line-height: 1;
+  font-size: 20px;
+  background: var(--black-color);
 }
 /* nav item styling */
 .nav-container {
@@ -60,11 +61,14 @@ body {
 }
 
 .profile-pic {
-  height: 600px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .flex-text {
   width: 550px;
+  padding-left: 20px;
 }
 
 .flex-text span {
@@ -73,26 +77,30 @@ body {
 
 .flex-img {
   width: 300px;
+  height: 300px;
+  margin-top: 120px;
 }
 
 .flex-text h1 {
   color: #ffffff;
   font-size: 80px;
   text-transform: capitalize;
-  margin: 20px;
+  margin: 0 20px;
+  margin-top: 20px;
 }
 
 .flex-text p {
   color: #ffc0cb;
   letter-spacing: 1px;
   line-height: 28px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   padding: 20px;
 }
 
 .flex-text h2 {
   color: var(--text-decoration-skip-ink);
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
 .flex-text ul {
@@ -103,6 +111,16 @@ body {
 
 section a {
   color: var(--text-decoration-skip-ink);
+}
+
+.hire-me {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.hire-me:hover {
+  color: rgb(243, 16, 53);
 }
 
 .project-container-main {
@@ -127,13 +145,26 @@ section a {
   text-align: left;
 }
 
-#projects h2 {
-  padding-left: 20px;
+#projects {
+  background: var(--black-color);
 }
 
-.project-description p,
+#projects h2 {
+  padding-left: 20px;
+  /* color: rgb(243, 16, 53); */
+  color: white;
+}
+
+#projects h2 span {
+  color: var(--text-decoration-skip-ink);
+}
+
 .project-description h3 {
-  padding: 20px;
+  color: #9c283b;
+  text-align: center;
+}
+
+.project-description p {
   text-align: center;
 }
 
@@ -141,16 +172,23 @@ section a {
   object-fit: contain;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
   display: block;
   max-height: 600px;
+  padding-top: 20px;
+}
+
+.project-btn-deco {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 /* small projects styling */
 .cards-container {
   padding: 20px;
-  margin: 20px;
-  background-color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--black-color);
   justify-content: space-around;
 
   /* flex properties */
@@ -164,12 +202,66 @@ section a {
   text-align: center;
 }
 
+.small-project-card h3 {
+  color: #9c283b;
+}
+
+.small-project-card img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 80%;
+  display: block;
+  max-height: 400px;
+}
+
+.small-project-card:hover {
+  animation: grow 0.5s ease-out;
+  cursor: pointer;
+  transform: scale(0.95);
+
+  z-index: 2;
+}
+
+.small-project-description p {
+  padding: 40px;
+  margin: 20px;
+}
+.btn-container {
+  margin-top: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-btn {
+  width: 300px;
+  margin: 10px;
+
+  padding: 10px;
+  border-radius: 10%;
+  background-color: var(--black-color);
+  font-size: 18px;
+}
+
+.project-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-btn:hover {
+  background-color: red;
+}
+
 /* contact me section styling */
 footer {
   position: relative;
   width: 100%;
   height: 200px;
-  background: #101010;
+  background: var(--black-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,7 +288,7 @@ footer h3 span {
   border-radius: 50%;
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .contact-me a:hover {
@@ -223,5 +315,15 @@ footer h3 span {
   }
   .flex-text h1 {
     font-size: 35px;
+    text-align: center;
+  }
+  .flex-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 400px;
   }
 }
