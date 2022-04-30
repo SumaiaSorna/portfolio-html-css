@@ -164,6 +164,10 @@ section a {
   text-align: center;
 }
 
+.project-description h6 {
+  text-align: center;
+}
+
 .project-description p {
   text-align: center;
 }
